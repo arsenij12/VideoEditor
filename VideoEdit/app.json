@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "VideoEdit",
+    "slug": "VideoEdit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-imglysdk",
+        {
+          "android": {
+            "version": "10.9.0",
+            "kspVersion": "1.8.0-1.0.9",
+            "modules": [
+              "ui:core",
+              "ui:transform",
+              "ui:filter",
+              "assets:filter-basic"
+            ],
+            "buildToolsVersion": "34.0.0",
+            "minSdkVersion": "21",
+            "compileSdkVersion": "34",
+            "targetSdkVersion": "34",
+            "kotlinGradlePluginVersion": "1.8.0"
+          }
+        }
+      ]
+    ]
+  }
+}
